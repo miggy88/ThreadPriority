@@ -52,6 +52,7 @@
     <Compile Include="frmTrackThread.Designer.cs">
       <DependentUpon>frmTrackThread.cs</DependentUpon>
     </Compile>
+    <Compile Include="MyThreadClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmTrackThread.resx">
