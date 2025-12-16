@@ -69,6 +69,15 @@ namespace ThreadPriority
             threadC.Start();
             threadD.Start();
 
+            threadA.Join();
+            threadB.Join();
+            threadC.Join();
+            threadD.Join();
+
+            Console.WriteLine("All threads have completed execution.");
+
+
+
 
         }
     }
